@@ -1,0 +1,117 @@
+body {
+  background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+main {
+  margin: 150px auto;
+  width: calc(210mm - 50px * 2);
+  height: calc(297mm - 10px * 2);
+  background-image: url(https://cdn.pizap.com/pizapfiles/images/photo_backgrounds_textures_app04.jpg);
+}
+
+.head-section {
+  height: 25%;
+  width: 100%;
+  display: flex;
+}
+.resume_left {
+  flex: 1;
+  margin-right: 4px;
+  background-image: url(https://images.pexels.com/photos/3369569/pexels-photo-3369569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.resume_image {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 45px;
+  margin-left: 40px;
+}
+.resume_image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.resume_right {
+  flex: 2;
+  background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.text {
+  font-weight: normal;
+
+  display: flex;
+}
+
+.name {
+  font-weight: normal;
+  font-size: 20px;
+  border: 10px solid rgb(8, 8, 8);
+  margin-left: 80px;
+  margin-bottom: 60px;
+  margin-top: 5%;
+}
+.name h3 {
+  font-weight: normal;
+  font-size: 15px;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.contacts {
+  margin-left: 80px;
+  display: flex;
+  margin-bottom: 70px;
+}
+.phone {
+  font-weight: normal;
+  font-size: 10px;
+  flex: 1;
+}
+.e-mail {
+  font-weight: normal;
+  font-size: 10px;
+  flex: 1;
+}
+.adress {
+  font-weight: normal;
+  font-size: 10px;
+  flex: 1;
+}
+.body-section {
+  height: 75%;
+  width: 100%;
+  display: flex;
+}
+.body-left {
+  margin-right: 4px;
+  margin-top: 4px;
+  flex: 1;
+
+  background-color: rgb(255, 255, 255);
+}
+.About_me {
+  margin: 20px;
+  font-weight: normal;
+  font-size: 17px;
+}
+.Education {
+  margin: 20px;
+  margin-top: 70px;
+  font-weight: normal;
+  font-size: 17px;
+}
+.body-right {
+  flex: 2;
+  margin-top: 4px;
+
+  background-color: rgb(255, 255, 255);
+}
+.Work_experience {
+  font-weight: normal;
+  font-size: 17px;
+  margin: 20px;
+}
