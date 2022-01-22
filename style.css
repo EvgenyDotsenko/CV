@@ -1,5 +1,6 @@
 body {
   background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  font-family: "Oswald", sans-serif;
 }
 
 main {
@@ -13,8 +14,9 @@ main {
   height: 25%;
   width: 100%;
   display: flex;
+  justify-content: center;
 }
-.resume_left {
+.head_left {
   flex: 1;
   margin-right: 4px;
   background-image: url(https://images.pexels.com/photos/925743/pexels-photo-925743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -26,7 +28,8 @@ main {
   border-radius: 50%;
   overflow: hidden;
   margin-top: 45px;
-  margin-left: 40px;
+  margin-left: 30px;
+  border: solid 10px rgb(43, 42, 42);
 }
 .resume_image img {
   position: absolute;
@@ -37,23 +40,22 @@ main {
   object-fit: cover;
 }
 
-.resume_right {
+.head_right {
   flex: 2;
   background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
 .text {
   font-weight: normal;
-
   display: flex;
+  justify-content: center;
+  padding-top: 10%;
 }
 
 .name {
   font-weight: normal;
   font-size: 20px;
   border: 10px solid rgb(8, 8, 8);
-  margin-left: 80px;
-  margin-bottom: 60px;
-  margin-top: 5%;
+  background-color: rgb(199, 199, 199);
 }
 .name h3 {
   font-weight: normal;
@@ -93,16 +95,20 @@ main {
 
   background-color: rgb(255, 255, 255);
 }
-.About_me {
+.about_me {
   margin: 20px;
   font-weight: normal;
   font-size: 17px;
+  line-height: 1.5;
 }
-.Education {
+.education {
   margin: 20px;
   margin-top: 70px;
   font-weight: normal;
   font-size: 17px;
+  line-height: 1;
+
+  padding: top 100px;
 }
 .body-right {
   flex: 2;
@@ -110,8 +116,15 @@ main {
 
   background-color: rgb(255, 255, 255);
 }
-.Work_experience {
+.work_experience {
   font-weight: normal;
   font-size: 17px;
   margin: 20px;
+}
+
+.education p1 {
+  color: rgb(241, 19, 19);
+}
+.work_experience p1 {
+  color: rgb(241, 19, 19);
 }
