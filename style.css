@@ -5,9 +5,9 @@ body {
 
 main {
   margin: 150px auto;
-  width: calc(210mm - 50px * 2);
-  height: calc(297mm - 10px * 2);
-  background-image: url(https://cdn.pizap.com/pizapfiles/images/photo_backgrounds_textures_app04.jpg);
+  width: 210mm;
+  height: 297mm;
+  background-color: rgb(194, 194, 194);
 }
 
 .head-section {
@@ -17,71 +17,73 @@ main {
   justify-content: center;
 }
 .head_left {
-  flex: 1;
+  flex: 0 0 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 4px;
-  background-image: url(https://images.pexels.com/photos/925743/pexels-photo-925743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-color: white;
 }
-.resume_image {
-  position: relative;
+
+.head_left img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  overflow: hidden;
-  margin-top: 45px;
-  margin-left: 30px;
-  border: solid 10px rgb(43, 42, 42);
-}
-.resume_image img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  border: solid 10px rgba(170, 169, 169, 0.863);
 }
 
 .head_right {
   flex: 2;
-  background-image: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5%;
+  background-color: white;
 }
 .text {
   font-weight: normal;
   display: flex;
   justify-content: center;
-  padding-top: 10%;
 }
 
 .name {
   font-weight: normal;
-  font-size: 20px;
-  border: 10px solid rgb(8, 8, 8);
-  background-color: rgb(199, 199, 199);
+  width: 100%;
+  text-align: center;
+
+  border: 4px solid rgb(170, 169, 169, 0.863);
+  background-color: white;
+}
+.name h1 {
+  margin: 0;
+  font-size: 40px;
+  font-family: Kanit;
+  font-weight: 900;
 }
 .name h3 {
+  margin-top: 0;
   font-weight: normal;
   font-size: 15px;
-  margin-top: 5%;
-  margin-left: 20%;
 }
 .contacts {
-  margin-left: 80px;
   display: flex;
-  margin-bottom: 70px;
+  justify-content: space-between;
 }
 .phone {
   font-weight: normal;
   font-size: 10px;
-  flex: 1;
 }
 .e-mail {
   font-weight: normal;
   font-size: 10px;
-  flex: 1;
 }
 .adress {
   font-weight: normal;
   font-size: 10px;
-  flex: 1;
+}
+.accenttext {
+  font-family: Kanit;
+  font-weight: 700;
 }
 .body-section {
   height: 75%;
@@ -91,28 +93,26 @@ main {
 .body-left {
   margin-right: 4px;
   margin-top: 4px;
-  flex: 1;
-
+  flex: 0 0 30%;
   background-color: rgb(255, 255, 255);
 }
 .about_me {
   margin: 20px;
   font-weight: normal;
   font-size: 17px;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 .education {
   margin: 20px;
-  margin-top: 70px;
+  margin-top: 60px;
   font-weight: normal;
   font-size: 17px;
-  line-height: 1;
-
-  padding: top 100px;
+  line-height: 19px;
 }
 .body-right {
   flex: 2;
   margin-top: 4px;
+  line-height: 25px;
 
   background-color: rgb(255, 255, 255);
 }
@@ -127,4 +127,19 @@ main {
 }
 .work_experience p1 {
   color: rgb(241, 19, 19);
+}
+.smalltext_right {
+  font-size: 70%;
+  line-height: 0px;
+  text-align: right;
+  padding-right: 10%;
+}
+.smalltext_left {
+  font-size: 70%;
+  line-height: 0px;
+  text-align: left;
+  padding-right: 10%;
+}
+.work_experience h4 {
+  padding-left: 10%;
 }
