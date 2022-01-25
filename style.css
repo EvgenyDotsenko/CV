@@ -1,0 +1,145 @@
+body {
+  background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  font-family: "Oswald", sans-serif;
+}
+
+main {
+  margin: 150px auto;
+  width: 210mm;
+  height: 297mm;
+  background-color: rgb(194, 194, 194);
+}
+
+.head-section {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.head_left {
+  flex: 0 0 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+  background-color: white;
+}
+
+.head_left img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: solid 10px rgba(170, 169, 169, 0.863);
+}
+
+.head_right {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 5%;
+  background-color: white;
+}
+.text {
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  font-weight: normal;
+  width: 100%;
+  text-align: center;
+
+  border: 4px solid rgb(170, 169, 169, 0.863);
+  background-color: white;
+}
+.name h1 {
+  margin: 0;
+  font-size: 40px;
+  font-family: Kanit;
+  font-weight: 900;
+}
+.name h3 {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 15px;
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+.phone {
+  font-weight: normal;
+  font-size: 10px;
+}
+.e-mail {
+  font-weight: normal;
+  font-size: 10px;
+}
+.adress {
+  font-weight: normal;
+  font-size: 10px;
+}
+.accenttext {
+  font-family: Kanit;
+  font-weight: 700;
+}
+.body-section {
+  height: 75%;
+  width: 100%;
+  display: flex;
+}
+.body-left {
+  margin-right: 4px;
+  margin-top: 4px;
+  flex: 0 0 30%;
+  background-color: rgb(255, 255, 255);
+}
+.about_me {
+  margin: 20px;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 1.3;
+}
+.education {
+  margin: 20px;
+  margin-top: 60px;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 19px;
+}
+.body-right {
+  flex: 2;
+  margin-top: 4px;
+  line-height: 25px;
+
+  background-color: rgb(255, 255, 255);
+}
+.work_experience {
+  font-weight: normal;
+  font-size: 17px;
+  margin: 20px;
+}
+
+.education p1 {
+  color: rgb(241, 19, 19);
+}
+.work_experience p1 {
+  color: rgb(241, 19, 19);
+}
+.smalltext_right {
+  font-size: 70%;
+  line-height: 0px;
+  text-align: right;
+  padding-right: 10%;
+}
+.smalltext_left {
+  font-size: 70%;
+  line-height: 0px;
+  text-align: left;
+  padding-right: 10%;
+}
+.work_experience h4 {
+  padding-left: 10%;
+}
